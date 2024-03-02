@@ -11,7 +11,7 @@ for linha in pagedados.iter_rows(min_row=5):
     priceaction = linha[15].value
 
     if tagaction == valor_procurado:
-        print(f"Tag: {tagaction}, Price: {priceaction:.2f}")
+        print(f"Tag: {tagaction}, Preço: {priceaction:.2f}")
         break
 
 else:
